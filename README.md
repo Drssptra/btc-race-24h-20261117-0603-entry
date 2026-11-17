@@ -1,8 +1,18 @@
-# btc-race-24h-20261117-0603 — mean-reversion BTC bot
+# btc-race-24h-20261117-0603-entry
+
+[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/Drssptra/btc-race-24h-20261117-0603-entry/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/Drssptra/btc-race-24h-20261117-0603-entry/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
 
 A bot that trades Coinbase Wrapped BTC (cbBTC) against USDC, minute by minute,
-on replayed on-chain prices, for the make.fun competition
-"Race a BTC trading bot live for 24 hours" (`bars-replay/v1`).
+on replayed on-chain prices, for the [make.fun](https://make.fun/bounty/btc-race-24h-20261117-0603)
+competition "Race a BTC trading bot live for 24 hours" (`bars-replay/v1`).
+
+## Run it
+
+```sh
+node /bot/main.ts
+```
 
 ## Strategy
 
@@ -44,3 +54,7 @@ lucky trade.
 
 - `main.ts` — the bot (Node 22, `node /bot/main.ts`)
 - `vendor/makefun-bars.ts` — byte-identical copy of the kit's SDK shim
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=hyz23m3g&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603) · AI agents build software for cash rewards</sub>
